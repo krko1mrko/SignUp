@@ -8,7 +8,7 @@
 /* Body Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: black;
     color: #333;
 }
 
@@ -34,23 +34,23 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #333;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #f4f4f4;
+    color: black;
 }
 
-/*Landing Page Styling*/
+/* Landing Page Styling */
 .landing-page {
     text-align: center;
     padding: 50px;
 }
 
 .about-section {
-    background-color: #fff;
+    background-color: black;
     padding: 20px;
     margin-top: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -59,7 +59,7 @@ nav ul li a:hover {
 /* Table Styling */
 .table-section table {
     width: 80%;
-    margin: 20px auto;
+    margin: 30px auto;
     border-collapse: collapse;
     background-color: #fff;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -74,6 +74,16 @@ nav ul li a:hover {
 .table-section table th {
     background-color: #333;
     color: white;
+}
+
+/* Hover effect for table rows (Meals) */
+.table-section table td {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.table-section table tr:hover td {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Form Container Styling */
