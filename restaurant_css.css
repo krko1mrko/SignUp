@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: black;
-    color: #333;
+    color: white;
 }
 
 /* Header and Navigation */
@@ -34,7 +34,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #333;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
